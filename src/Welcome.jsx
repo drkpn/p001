@@ -5,8 +5,8 @@ class Welcome extends Component {
         return (
             <div>
                 <h1>Welcome Page</h1>
-                <a href='/app'>App</a> <br/>
-                <a href='/myapp'>MyApp</a>
+                <a href='app'>App</a> <br/>
+                <a href='myapp'>MyApp</a>
             </div>
         );
     }

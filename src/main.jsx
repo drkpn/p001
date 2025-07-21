@@ -8,7 +8,7 @@ import Welcome from './Welcome.jsx'
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/p001">
     <Routes>
       <Route path="app" element={<App/>}></Route>
       <Route path='myapp' element={<Myapp/>}></Route>

@@ -5,7 +5,7 @@ class Myapp extends Component {
     render() {
         return (
             <div className='myInfo'>
-                <img className='photo' src='/myphoto.png' alt='photo' />
+                <img className='photo' src={`${import.meta.env.BASE_URL}myphoto.png`} alt='photo' />
                 <table>
                     <tr>
                         <td><label>Name</label></td>
