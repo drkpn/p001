@@ -1,17 +1,5 @@
-// import { StrictMode } from 'react'
-// import { createRoot } from 'react-dom/client'
-// import './index.css'
-// import MainRouter from './MainRouter.jsx'
-
-
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <MainRouter/>
-//   </StrictMode>
-// )
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import App from './App';
 import Myapp from './Myapp';
 import Welcome from './Welcome';
