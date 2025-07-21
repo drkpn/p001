@@ -7,7 +7,7 @@ class Welcome extends Component {
             <div>
                 <h1>Welcome Page</h1>
                 <Link to="/app">Go to App</Link>
-                <a href='myapp'>MyApp</a>
+                <Link to="/myapp">MyApp</Link>
             </div>
         );
     }
