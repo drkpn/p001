@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://drkpn.github.io/p001",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
