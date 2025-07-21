@@ -1,0 +1,30 @@
+.myInfo{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+
+    /*Center of Screen*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /*Allocate a space on all 4 sides*/
+    padding: 10px;
+
+    /* box-shadow: -2px 5px 10px 10px yellow; */
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+    border-radius: 50px;
+}
+/*Increasing height of table row*/
+tr{
+    height: 30px;
+}
