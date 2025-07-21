@@ -1,18 +1,28 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+// import { StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
+// import './index.css'
+// import MainRouter from './MainRouter.jsx'
+
+
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     <MainRouter/>
+//   </StrictMode>
+// )
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { HashRouter, Routes, Route, BrowserRouter } from 'react-router-dom';
+import App from './App';
+import Myapp from './Myapp';
+import Welcome from './Welcome';
 import './index.css'
-import App from './App.jsx'
-import Myapp from './Myapp.jsx'
-import { HashRouter, Route, Routes } from 'react-router-dom'
-import Welcome from './Welcome.jsx'
 
-
-createRoot(document.getElementById('root')).render(
-  <HashRouter>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter basename='p001'>
     <Routes>
-      <Route path="/app" element={<App/>}></Route>
-      <Route path='/myapp' element={<Myapp/>}></Route>
-      <Route path='/' element={<Welcome/>}></Route>
+      <Route path="/" element={<Welcome />} />
+      <Route path="app" element={<App />} />
+      <Route path="myapp" element={<Myapp />} />
     </Routes>
-  </HashRouter>
-)
+  </BrowserRouter>
+);
